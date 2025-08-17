@@ -5,7 +5,7 @@
 * 最新の[Javaの総称型](https://dev.java/learn/generics/)を概説
 * 具体例を示す
 
-'''
+```
 public class SampleBox<T> {
     // 
     private T val;
@@ -26,7 +26,7 @@ public class SampleBox<T> {
         System.out.println(n.getClass().getName() + " : " + n);
     }
 }
-'''
+```
 
 ## [Goの総称型](https://doi.org/10.1145/3563331)
 
